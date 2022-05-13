@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E91A8656282BC2700074D757 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A8655282BC26F0074D757 /* Register.swift */; };
+		E91A865A282BF6420074D757 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A8659282BF6420074D757 /* Database.swift */; };
+		E91A865C282BF6540074D757 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A865B282BF6540074D757 /* Date.swift */; };
+		E91A865E282BF6630074D757 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A865D282BF6630074D757 /* User.swift */; };
+		E91A8697282C2A240074D757 /* DashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A8696282C2A240074D757 /* DashBoard.swift */; };
+		E91A869B282C2A4A0074D757 /* Diabetes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A869A282C2A4A0074D757 /* Diabetes.swift */; };
+		E91A869D282C2A5E0074D757 /* HealthMonitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A869C282C2A5E0074D757 /* HealthMonitoring.swift */; };
+		E91A869F282C2A6A0074D757 /* Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A869E282C2A6A0074D757 /* Heart.swift */; };
+		E91A86A1282C2A790074D757 /* SetNewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A86A0282C2A790074D757 /* SetNewPassword.swift */; };
+		E91A86A3282C2A8A0074D757 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A86A2282C2A8A0074D757 /* Settings.swift */; };
+		E91A86A5282C2A9E0074D757 /* Tonsil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A86A4282C2A9E0074D757 /* Tonsil.swift */; };
+		E91A86A7282C2AE30074D757 /* forgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A86A6282C2AE30074D757 /* forgotPassword.swift */; };
+		E91A86A9282C2AFF0074D757 /* verifyOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A86A8282C2AFF0074D757 /* verifyOTP.swift */; };
+		E9A92505282A83F5008E5338 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A92504282A83F5008E5338 /* Login.swift */; };
+		E9B6A887282D9197003088C5 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A87A282D9196003088C5 /* Statement.swift */; };
+		E9B6A888282D9197003088C5 /* sha1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A87B282D9196003088C5 /* sha1.swift */; };
+		E9B6A889282D9197003088C5 /* ConnectionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A87C282D9196003088C5 /* ConnectionPool.swift */; };
+		E9B6A88A282D9197003088C5 /* MysqlResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A87D282D9196003088C5 /* MysqlResult.swift */; };
+		E9B6A88B282D9197003088C5 /* tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A87E282D9196003088C5 /* tests.swift */; };
+		E9B6A88C282D9197003088C5 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A87F282D9196003088C5 /* Socket.swift */; };
+		E9B6A88D282D9197003088C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A880282D9196003088C5 /* Utils.swift */; };
+		E9B6A88E282D9197003088C5 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A881282D9196003088C5 /* Query.swift */; };
+		E9B6A88F282D9197003088C5 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A882282D9197003088C5 /* Connection.swift */; };
+		E9B6A890282D9197003088C5 /* Packets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A883282D9197003088C5 /* Packets.swift */; };
+		E9B6A891282D9197003088C5 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A884282D9197003088C5 /* Table.swift */; };
+		E9B6A892282D9197003088C5 /* mysql.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A885282D9197003088C5 /* mysql.swift */; };
+		E9B6A893282D9197003088C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6A886282D9197003088C5 /* Constants.swift */; };
 		E9E0D06F28284B8100F67AF1 /* SHMS_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0D06E28284B8100F67AF1 /* SHMS_IOSApp.swift */; };
 		E9E0D07128284B8100F67AF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0D07028284B8100F67AF1 /* ContentView.swift */; };
 		E9E0D07328284B8200F67AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E0D07228284B8200F67AF1 /* Assets.xcassets */; };
@@ -34,6 +61,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E91A8655282BC26F0074D757 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		E91A8659282BF6420074D757 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		E91A865B282BF6540074D757 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		E91A865D282BF6630074D757 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E91A8696282C2A240074D757 /* DashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoard.swift; sourceTree = "<group>"; };
+		E91A869A282C2A4A0074D757 /* Diabetes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diabetes.swift; sourceTree = "<group>"; };
+		E91A869C282C2A5E0074D757 /* HealthMonitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMonitoring.swift; sourceTree = "<group>"; };
+		E91A869E282C2A6A0074D757 /* Heart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart.swift; sourceTree = "<group>"; };
+		E91A86A0282C2A790074D757 /* SetNewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNewPassword.swift; sourceTree = "<group>"; };
+		E91A86A2282C2A8A0074D757 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E91A86A4282C2A9E0074D757 /* Tonsil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tonsil.swift; sourceTree = "<group>"; };
+		E91A86A6282C2AE30074D757 /* forgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPassword.swift; sourceTree = "<group>"; };
+		E91A86A8282C2AFF0074D757 /* verifyOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyOTP.swift; sourceTree = "<group>"; };
+		E9A92504282A83F5008E5338 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E9B6A87A282D9196003088C5 /* Statement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statement.swift; sourceTree = "<group>"; };
+		E9B6A87B282D9196003088C5 /* sha1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sha1.swift; sourceTree = "<group>"; };
+		E9B6A87C282D9196003088C5 /* ConnectionPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionPool.swift; sourceTree = "<group>"; };
+		E9B6A87D282D9196003088C5 /* MysqlResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MysqlResult.swift; sourceTree = "<group>"; };
+		E9B6A87E282D9196003088C5 /* tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tests.swift; sourceTree = "<group>"; };
+		E9B6A87F282D9196003088C5 /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		E9B6A880282D9196003088C5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E9B6A881282D9196003088C5 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		E9B6A882282D9197003088C5 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		E9B6A883282D9197003088C5 /* Packets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Packets.swift; sourceTree = "<group>"; };
+		E9B6A884282D9197003088C5 /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		E9B6A885282D9197003088C5 /* mysql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mysql.swift; sourceTree = "<group>"; };
+		E9B6A886282D9197003088C5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E9E0D06B28284B8100F67AF1 /* SHMS IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHMS IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E0D06E28284B8100F67AF1 /* SHMS_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMS_IOSApp.swift; sourceTree = "<group>"; };
 		E9E0D07028284B8100F67AF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,9 +125,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E91A867B282C28E30074D757 /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				E9B6A882282D9197003088C5 /* Connection.swift */,
+				E9B6A87C282D9196003088C5 /* ConnectionPool.swift */,
+				E9B6A886282D9197003088C5 /* Constants.swift */,
+				E9B6A885282D9197003088C5 /* mysql.swift */,
+				E9B6A87D282D9196003088C5 /* MysqlResult.swift */,
+				E9B6A883282D9197003088C5 /* Packets.swift */,
+				E9B6A881282D9196003088C5 /* Query.swift */,
+				E9B6A87B282D9196003088C5 /* sha1.swift */,
+				E9B6A87F282D9196003088C5 /* Socket.swift */,
+				E9B6A87A282D9196003088C5 /* Statement.swift */,
+				E9B6A884282D9197003088C5 /* Table.swift */,
+				E9B6A87E282D9196003088C5 /* tests.swift */,
+				E9B6A880282D9196003088C5 /* Utils.swift */,
+			);
+			path = MySQL;
+			sourceTree = "<group>";
+		};
+		E9A924FF282A8371008E5338 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E9A92504282A83F5008E5338 /* Login.swift */,
+				E91A8655282BC26F0074D757 /* Register.swift */,
+				E91A8696282C2A240074D757 /* DashBoard.swift */,
+				E91A869A282C2A4A0074D757 /* Diabetes.swift */,
+				E91A869C282C2A5E0074D757 /* HealthMonitoring.swift */,
+				E91A869E282C2A6A0074D757 /* Heart.swift */,
+				E91A86A0282C2A790074D757 /* SetNewPassword.swift */,
+				E91A86A2282C2A8A0074D757 /* Settings.swift */,
+				E91A86A4282C2A9E0074D757 /* Tonsil.swift */,
+				E91A86A6282C2AE30074D757 /* forgotPassword.swift */,
+				E91A86A8282C2AFF0074D757 /* verifyOTP.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E9A92500282A8379008E5338 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E9A92501282A8389008E5338 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E91A8659282BF6420074D757 /* Database.swift */,
+				E91A865B282BF6540074D757 /* Date.swift */,
+				E91A865D282BF6630074D757 /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		E9E0D06228284B8100F67AF1 = {
 			isa = PBXGroup;
 			children = (
+				E91A867B282C28E30074D757 /* MySQL */,
+				E9A92501282A8389008E5338 /* model */,
+				E9A92500282A8379008E5338 /* controller */,
+				E9A924FF282A8371008E5338 /* view */,
 				E9E0D06D28284B8100F67AF1 /* SHMS IOS */,
 				E9E0D07E28284B8200F67AF1 /* SHMS IOSTests */,
 				E9E0D08828284B8200F67AF1 /* SHMS IOSUITests */,
@@ -257,8 +370,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91A865A282BF6420074D757 /* Database.swift in Sources */,
+				E9A92505282A83F5008E5338 /* Login.swift in Sources */,
+				E91A865C282BF6540074D757 /* Date.swift in Sources */,
+				E91A86A5282C2A9E0074D757 /* Tonsil.swift in Sources */,
+				E91A869B282C2A4A0074D757 /* Diabetes.swift in Sources */,
 				E9E0D07128284B8100F67AF1 /* ContentView.swift in Sources */,
+				E9B6A893282D9197003088C5 /* Constants.swift in Sources */,
+				E9B6A88E282D9197003088C5 /* Query.swift in Sources */,
+				E91A865E282BF6630074D757 /* User.swift in Sources */,
+				E91A8656282BC2700074D757 /* Register.swift in Sources */,
+				E9B6A88F282D9197003088C5 /* Connection.swift in Sources */,
+				E9B6A892282D9197003088C5 /* mysql.swift in Sources */,
+				E91A86A9282C2AFF0074D757 /* verifyOTP.swift in Sources */,
+				E9B6A88D282D9197003088C5 /* Utils.swift in Sources */,
+				E91A86A1282C2A790074D757 /* SetNewPassword.swift in Sources */,
+				E9B6A888282D9197003088C5 /* sha1.swift in Sources */,
+				E9B6A891282D9197003088C5 /* Table.swift in Sources */,
+				E91A8697282C2A240074D757 /* DashBoard.swift in Sources */,
+				E9B6A889282D9197003088C5 /* ConnectionPool.swift in Sources */,
+				E91A86A7282C2AE30074D757 /* forgotPassword.swift in Sources */,
+				E9B6A890282D9197003088C5 /* Packets.swift in Sources */,
 				E9E0D06F28284B8100F67AF1 /* SHMS_IOSApp.swift in Sources */,
+				E9B6A88B282D9197003088C5 /* tests.swift in Sources */,
+				E9B6A887282D9197003088C5 /* Statement.swift in Sources */,
+				E91A869D282C2A5E0074D757 /* HealthMonitoring.swift in Sources */,
+				E91A869F282C2A6A0074D757 /* Heart.swift in Sources */,
+				E91A86A3282C2A8A0074D757 /* Settings.swift in Sources */,
+				E9B6A88C282D9197003088C5 /* Socket.swift in Sources */,
+				E9B6A88A282D9197003088C5 /* MysqlResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
